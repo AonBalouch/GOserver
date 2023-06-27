@@ -37,7 +37,7 @@ func CreateChatCompletion(c *gin.Context) {
 	messages := getOldMessages(reqBody, []openai.ChatCompletionMessage{
 		{
 			Role:    openai.ChatMessageRoleSystem,
-			Content: "You're a large artificial intelligence language model called LatticeGPT that replies to all my questions in markdown format.",
+			Content: "You're a large artificial intelligence language model called X aka QonkurX that replies to all my questions in markdown format.",
 		},
 		{
 			Role:    openai.ChatMessageRoleUser,
